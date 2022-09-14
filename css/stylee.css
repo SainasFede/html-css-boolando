@@ -1,0 +1,102 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header{
+  height: 80px;
+  width: 100%;
+  background-color: rgba(255,105,0,255);
+}
+
+header .menu{
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+
+header img{
+  width: 120px;
+  height: 30px;
+}
+
+header nav ul{
+  display: flex;
+  list-style: none;
+}
+
+header nav ul li{
+  padding: 10px;
+}
+
+header .icons{
+  display: flex;
+}
+
+header .menu .icons i{
+  padding-left: 10px;
+}
+
+main{
+  padding: 30px 200px;
+  text-align: center;
+}
+
+main .row .box{
+  display: inline-block;
+  padding: 20px 8px;
+  text-align: left;
+}
+
+.row .box .img img{
+  width: 350px;
+  height: 500px;
+}
+
+.row .box p .red{
+  color: red;
+}
+
+.delete{
+  text-decoration: line-through;
+}
+
+footer{
+  height: 100px;
+  width: 100%;
+  background-color: #1a1a1a;
+  display: flex;
+  padding-top: 20px;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+  color: white;
+}
+footer ul{
+  display: flex;
+  padding-top: 10px;
+}
+
+footer ul li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer ul li{
+  list-style: none;
+  padding-right: 10px;
+}
+
+footer .icons{
+  text-align: center;
+  padding: 10px;
+}
+
+footer .icons i{
+  padding-right: 5px;
+}
+
