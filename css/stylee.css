@@ -52,6 +52,20 @@ main .row .box{
   text-align: left;
 }
 
+.img{
+  position: relative;
+}
+
+.heart{
+  width: 40px;
+  height: 40px;
+  background-color: white;
+  color: #1a1a1a;
+  position: absolute;
+  right: 0;
+  top: 10;
+}
+
 .row .box .img img{
   width: 350px;
   height: 500px;
