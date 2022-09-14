@@ -25,6 +25,11 @@ header .menu{
   color: white;
 }
 
+header .menu ul a{
+  text-decoration: none;
+  color: white;
+}
+
 header img{
   width: 120px;
   height: 30px;
@@ -156,15 +161,50 @@ footer .icons i{
   display: none;
 }
 
-#prima :hover .primaria{
+#prima:hover .primaria{
   display: none;
-  position: relative;
 }
 
-#prima :hover .secondaria{
+#prima:hover .secondaria{
   display: block;
-  position: absolute;
-  top: 0;
-  left: 0;
-  z-index: 99;
+}
+
+#seconda:hover .primaria{
+  display: none;
+}
+
+#seconda:hover .secondaria{
+  display: block;
+}
+
+#terza:hover .primaria{
+  display: none;
+}
+
+#terza:hover .secondaria{
+  display: block;
+}
+
+#quarta:hover .primaria{
+  display: none;
+}
+
+#quarta:hover .secondaria{
+  display: block;
+}
+
+#quinta:hover .primaria{
+  display: none;
+}
+
+#quinta:hover .secondaria{
+  display: block;
+}
+
+#sesta:hover .primaria{
+  display: none;
+}
+
+#sesta:hover .secondaria{
+  display: block;
 }
