@@ -69,6 +69,28 @@ main .row .box{
   align-items: center;
 }
 
+.img .sconti{
+  display: flex;
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+}
+
+.sconti h6{
+  margin-right: 2px;
+}
+
+.img .sconti .red{
+  background-color: red;
+  color: white;
+  padding: 3px 3px;
+}
+
+.img .sconti .green{
+  background-color:green;
+  color: white;
+  padding: 3px 3px;
+}
 
 
 .row .box .img img{
