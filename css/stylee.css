@@ -141,3 +141,24 @@ footer .icons i{
   padding-right: 5px;
 }
 
+
+.img .primaria{
+  display: block;
+}
+
+.img .secondaria{
+  display: none;
+}
+
+#prima :hover .primaria{
+  display: none;
+  position: relative;
+}
+
+#prima :hover .secondaria{
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 99;
+}
